@@ -9,6 +9,8 @@
   "files": [
     "index.js",
     "lib",
+    "tests",
+    "package.json",
     "README.md"
   ],
   "author": "devaniljr",
