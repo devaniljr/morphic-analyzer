@@ -57,8 +57,7 @@ function testSimpleLog() {
                     line: 50,
                     column: 28,
                     fromState: 'POLYMORPHIC',
-                    toState: 'MEGAMORPHIC',
-                    transitionLineIndex: 5
+                    toState: 'MEGAMORPHIC'
                 }
             ]
         }
@@ -68,4 +67,5 @@ function testSimpleLog() {
 
 createFixtures();
 testEmptyLog();
+createFixtures();
 testSimpleLog();
